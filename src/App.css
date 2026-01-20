@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100vh;
+  background-image: url("/pet-bg.png"); /* ✅ correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 420px;
+  padding: 35px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.glossy {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+/* DASHBOARD PAGE */
+.dashboard {
+  min-height: 100vh;
+  background: #f4f6f8;
+}
+
+.dashboard-header {
+  background: #ffffff;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.role {
+  margin-top: 5px;
+  color: #666;
+}
+
+.dashboard-content {
+  padding: 40px;
+  color: antiquewhite;
+}
+

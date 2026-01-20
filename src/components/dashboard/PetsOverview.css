@@ -1,0 +1,84 @@
+.pets-overview {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.pets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.view-all {
+  color: #ff8c00;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Card */
+.pet-card {
+  background: #fffaf5;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Top section */
+.pet-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pet-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.breed {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Status badge */
+.pet-status {
+  float: right;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.healthy {
+  background: #e6f7ec;
+  color: #2e7d32;
+}
+
+/* Stats row */
+.pet-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.pet-stats div {
+  text-align: center;
+  flex: 1;
+}
+
+.pet-stats span {
+  display: block;
+  font-weight: 600;
+}
+
+.pet-stats small {
+  color: #888;
+  font-size: 12px;
+}

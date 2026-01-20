@@ -1,0 +1,58 @@
+.appointments-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.book-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.book-card select,
+.book-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.book-card button {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.appointment-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.doctor-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.approve {
+  background: #4caf50;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+.reject {
+  background: #f44336;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
